@@ -39,7 +39,8 @@ h1 {
 article {
     overflow: auto;
     width: 960px;
-    margin: 0 auto;
+    margin: 1em auto;
+
     background-color: white;
 }
 
@@ -78,7 +79,7 @@ h2{
     color: #4aaaa5;
 }
 
-img {
+.profile {
     float: left;
     margin: 1em;
 }
@@ -95,6 +96,7 @@ footer {
     border-color: #4aaaa5;
     border-width: .5em;
     font-size: 10px;
+    margin-top: 5em;
 }
 
 form {
@@ -117,9 +119,38 @@ input[type=text] {
     color: #c0c0c0;
 }
 
+img {
+    padding: 0;
+    margin: 0;
+}
 input[type=submit] {
     background-color: #4aaaa5;
     padding: .75em 1.5em .75em 1.5em;
     color: white;
     font-size: 14px;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryImage {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 1.5em;
+}
+
+.galleryText {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 100%;
+    padding: .75em 0 .75em 0;
+    color: white;
 }

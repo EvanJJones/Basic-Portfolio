@@ -148,9 +148,7 @@ input[type=submit] {
 
 .galleryText {
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 1em;
     background-color: #4aaaa5;
     width: 100%;
     padding: .75em 0 .75em 0;

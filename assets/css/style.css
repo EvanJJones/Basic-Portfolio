@@ -40,10 +40,12 @@ article {
     overflow: auto;
     width: 960px;
     margin: 1em auto;
-
     background-color: white;
 }
 
+.mainContent {
+    margin: 1em;
+}
 p {
     margin: 1em;
 }
